@@ -1,26 +1,26 @@
 class Animal {
-    constructor(name,weight) {
+    constructor(name, weight) {
         this.name = name;
         this.weight = weight;
     }
 
-    setName(name){
+    setName(name) {
         this.name = name;
     }
 
-    getName(){
+    getName() {
         return this.name;
     }
 
-    setWeight(weight){
+    setWeight(weight) {
         this.weight = weight;
     }
 
-    getWeight(){
+    getWeight() {
         return this.weight;
     }
 
-    convertToString(){
-        return "Name: "+this.name+" - Weight: "+this.weight;
+    convertToString() {
+        return "Name: " + this.name + " - Weight: " + this.weight;
     }
 }
